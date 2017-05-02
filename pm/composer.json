@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php-pm/php-pm": "dev-master",
+        "php-pm/httpkernel-adapter": "dev-master",
+        "react/http": "dev-master#cd15204bd15d106d7832c680e4fb0ca0ce2f5e30"
+    }
+}

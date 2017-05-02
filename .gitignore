@@ -1,0 +1,6 @@
+.idea/
+pm/vendor/
+symfony/.gitignore
+symfony/README.md
+symfony/bin/
+symfony/var/
