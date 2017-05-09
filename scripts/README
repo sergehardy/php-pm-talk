@@ -1,0 +1,6 @@
+start-pm lance PM dans le répertoire symfony. C'est donc l'appli SF qui répond
+
+test-raw: Nginx -> FPM -> raw/index.php
+test-pm-raw: PM Server
+test-pm: Nginx -> PM Server
+test-sf: Nginx -> FPM -> Symfony

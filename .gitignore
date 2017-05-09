@@ -4,3 +4,5 @@ symfony/.gitignore
 symfony/README.md
 symfony/bin/
 symfony/var/
+symfony/vendor/
+laravel
