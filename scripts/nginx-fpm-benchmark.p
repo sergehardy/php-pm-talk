@@ -2,10 +2,10 @@
 set terminal png
 
 # save file to "benchmark.png"
-set output "sf.png"
+set output "nginx-fpm.png"
 
 # graph title
-set title "sf"
+set title "nginx-fpm"
 
 #nicer aspect ratio for image size
 set size 1,0.7
@@ -30,5 +30,5 @@ set ylabel "response time (ms)"
 
 #plot data from "out.data" using column 9 with smooth sbezier lines
 #plot "sf.tsv" every ::2 using 6:9 title 'response time' with points
-plot "sf.tsv" every ::2 using 9 smooth sbezier with lines title 'response time' 
+plot "nginx-fpm.tsv" every ::2 using 9 smooth sbezier with lines title 'response time' 
 exit
